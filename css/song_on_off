@@ -1,0 +1,14 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const button = document.getElementById('toggleButton');
+        const songList = document.getElementById('songList');
+
+        button.addEventListener('click', function() {
+            if (songList.style.display === 'none') {
+                songList.style.display = 'block';
+            } else {
+                songList.style.display = 'none';
+            }
+        });
+    });
+</script>
